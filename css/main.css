@@ -1,1 +1,78 @@
-font-family: 'Unica One', cursive;
+
+#rainbow-violet {
+  stroke-dasharray: 2450;
+  stroke-dashoffset: 2450;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-indigo {
+  stroke-dasharray: 2250;
+  stroke-dashoffset: 2250;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-blue {
+  stroke-dasharray: 2050;
+  stroke-dashoffset: 2050;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-green {
+  stroke-dasharray: 1850;
+  stroke-dashoffset: 1850;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-yellow {
+  stroke-dasharray: 1650;
+  stroke-dashoffset: 1650;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-orange {
+  stroke-dasharray: 1450;
+  stroke-dashoffset: 1450;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-red {
+  stroke-dasharray: 1250;
+  stroke-dashoffset: 1250;
+  animation: offset 2s linear forwards;
+}
+
+@keyframes offset {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#narwhal {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: offset 4s linear forwards;
+}
+
+#narwhal-eye {
+  animation: fade-in 3s linear forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text {
+  top: 50px;
+  left: 50px;
+  z-index: 5;
+  font-family: 'Unica One', cursive;
+  color: #fff;
+}
