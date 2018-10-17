@@ -54,6 +54,7 @@
 }
 
 #narwhal-eye {
+  opacity: 1;
   animation: fade-in 3s linear forwards;
 }
 
@@ -73,6 +74,21 @@
   top: 50px;
   left: 50px;
   z-index: 5;
-  font-family: "Unica One", cursive;
+  font-family: "Unica One", sans-serif;
   color: #fff;
+  opacity: 1;
+  animation: fade-in 3s linear forwards;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
