@@ -47,7 +47,7 @@
   }
 }
 
-#narwhal {
+#narwhal-body {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: offset 4s linear forwards;
@@ -73,6 +73,6 @@
   top: 50px;
   left: 50px;
   z-index: 5;
-  font-family: 'Unica One', cursive;
+  font-family: "Unica One", cursive;
   color: #fff;
 }
