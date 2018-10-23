@@ -52,7 +52,7 @@
 #narwhal-body {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
-  animation: offset 3s linear forwards;
+  animation: offset 250ms linear forwards;
 }
 
 #narwhal-eye {
